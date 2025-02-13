@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HelveticaNeueHeavyExtended';
+  src: url('/Helvetica Neue LT Std 83 Heavy Extended.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'HelveticaNeueHeavyExtended', Arial, Helvetica, sans-serif;
+}
