@@ -79,6 +79,13 @@ export const ASSET_LOGOS: Record<string, string> = {
   DEFAULT: "https://cryptologos.cc/logos/generic-coin-logo.svg",
 };
 
+// New constant for additional SVG icons (wallet, twitch, and google)
+export const SOCIAL_ICONS: Record<string, string> = {
+  WALLET: "/wallet.svg",
+  TWITCH: "/twitch.svg",
+  GOOGLE: "/google.svg",
+};
+
 // Types
 export interface WalletBalance {
   asset: string;
